@@ -1,7 +1,19 @@
 # ============================================================================
 # Script de déploiement automatique VM Windows Server 2022 sur Azure
-# Auteur: Assistant IA (basé sur le projet de Pierre Baroni)
+# Auteur: Pierre Baroni
 # Description: Automatise le déploiement Terraform d'une VM Windows sur Azure
+#
+# ⚠️ IMPORTANT: Ce script doit être placé à la RACINE du projet
+#               (au même niveau que le dossier terraform/, PAS dedans)
+#
+# Structure attendue:
+#   Projet/
+#   ├── Deploy-AzureVM.ps1  ← Ce script ICI
+#   └── terraform/          ← Dossier Terraform
+#       ├── provider.tf
+#       ├── variables.tf
+#       ├── main.tf
+#       └── outputs.tf
 # ============================================================================
 
 param(
