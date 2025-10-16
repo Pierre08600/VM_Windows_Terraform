@@ -292,6 +292,46 @@ Le dossier `screenshots/` contient 20 captures documentant chaque étape du proc
 
 \- \[Documentation Azure](https://learn.microsoft.com/azure/)
 
+## 🚀 Script d'automatisation PowerShell
+
+Un script PowerShell complet a été ajouté pour automatiser toutes les opérations !
+
+### ✨ Fonctionnalités
+
+- ✅ Vérification automatique des prérequis
+- ✅ Connexion Azure avec support Tenant ID
+- ✅ Déploiement automatisé complet
+- ✅ Connexion RDP en un clic
+- ✅ Gestion du cycle de vie (Deploy/Destroy)
+- ✅ Interface colorée et intuitive
+
+### 📋 Utilisation
+
+**Déploiement complet :**
+```powershell
+.\Deploy-AzureVM.ps1 -Action Deploy
+```
+
+**Avec un Tenant Azure spécifique :**
+```powershell
+.\Deploy-AzureVM.ps1 -Action Deploy -TenantId "votre-tenant-id"
+```
+
+**Récupérer les informations de connexion :**
+```powershell
+.\Deploy-AzureVM.ps1 -Action GetInfo
+```
+
+**Se connecter en RDP automatiquement :**
+```powershell
+.\Deploy-AzureVM.ps1 -Action Connect
+```
+
+**Supprimer l'infrastructure :**
+```powershell
+.\Deploy-AzureVM.ps1 -Action Destroy
+```
+
 
 
 ---
