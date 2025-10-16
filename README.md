@@ -49,11 +49,11 @@ VM_Windows_Terraform/
 
 ---
 
-## 🚀 Script d'automatisation PowerShell
+##  Script d'automatisation PowerShell
 
 Un script PowerShell complet a été ajouté pour automatiser toutes les opérations !
 
-### ✨ Fonctionnalités
+###  Fonctionnalités
 
 - ✅ Vérification automatique des prérequis
 - ✅ Connexion Azure avec support Tenant ID
@@ -91,7 +91,7 @@ Un script PowerShell complet a été ajouté pour automatiser toutes les opérat
 
 ---
 
-## 💻 Utilisation manuelle (sans le script)
+##  Utilisation manuelle (sans le script)
 
 ### Prérequis
 
@@ -146,7 +146,7 @@ terraform destroy
 
 ---
 
-## 💰 Coût estimé
+##  Coût estimé
 
 - VM Standard_B2s : ~40€/mois
 - IP publique : ~3€/mois
@@ -156,7 +156,7 @@ terraform destroy
 
 ---
 
-## 📚 Documentation
+##  Documentation
 
 Le dossier `screenshots/` contient 20 captures documentant chaque étape du processus, de la création à la connexion RDP.
 
