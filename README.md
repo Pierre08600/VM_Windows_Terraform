@@ -80,34 +80,30 @@ Déploiement automatisé d'une machine virtuelle Windows Server 2022 sur Azure a
 
 ```
 
-VM\_Windows\_Terraform/
+## 📁 Structure du projet
+```
+VM_Windows_Terraform/
+│
+├── Deploy-AzureVM.ps1          # Script PowerShell d'automatisation (RACINE DU PROJET)
+├── README.md                    # Documentation principale
+├── .gitignore                   # Fichiers à exclure de Git
+│
+├── terraform/                   # Configuration Terraform
+│   ├── provider.tf             # Configuration Azure Provider
+│   ├── variables.tf            # Variables du projet
+│   ├── main.tf                 # Ressources principales (VM, VNet, NSG, IP)
+│   └── outputs.tf              # Informations de sortie
+│
+├── docs/                        # Documentation complémentaire
+│
+└── screenshots/                 # Captures d'écran du processus
 
-├── terraform/
 
-│   ├── provider.tf      # Configuration Azure
-
-│   ├── variables.tf     # Paramètres modifiables
-
-│   ├── main.tf          # Ressources à créer
-
-│   └── outputs.tf       # Informations de sortie
-
-├── screenshots/         # Captures du processus
-
-├── README.md
-
-└── .gitignore
-
+**⚠️ Important :** Le script `Deploy-AzureVM.ps1` doit être placé à la racine du projet, 
+au même niveau que le dossier `terraform/`, PAS à l'intérieur.
 ```
 
-
-
----
-
-
-
 \##  Comment utiliser
-
 
 
 \### Prérequis
