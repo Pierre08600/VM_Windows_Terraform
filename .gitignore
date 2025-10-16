@@ -22,3 +22,7 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+# Credentials et fichiers sensibles
+connexion_vm.txt
+terraform/connexion_vm.txt
+terraform/tfplan
